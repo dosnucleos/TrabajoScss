@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    ;}
+
+html {font: 62,5%;}
+
+
+h1 {
+    font-family: $SecondaryFont;
+    font-size: 3rem;
+    color: $mainColor;
+    @media (min-width: 321px) and (max-width: 767px){
+        font-size: 1.4rem;      
+        }
+}
+
+
+h2{
+    font-family: $SecondaryFont;
+    font-size: 2rem;
+    color: $secondaryColor;
+}
+
+h3{
+    font-family: $SecondaryFont;
+    font-size: 1.5rem;
+    color: $mainColor;
+}
+
+h4{
+    font-family: $SecondaryFont;
+    font-size: 1.2rem;
+    color: $secondaryColor;
+}
+
+h5{
+    font-family: $SecondaryFont;
+    font-size: 1rem;
+    color: $whiteColor;
+}

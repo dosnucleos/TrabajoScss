@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap");
+nav {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9rem;
+  background-color: rgba(255, 255, 255, 0.8); }
+
+nav ul li {
+  list-style: none; }
+
+nav ul li a {
+  text-decoration: none;
+  color: #777475; }
+
+nav ul li a strong {
+  text-decoration: none;
+  color: #f76806; }
+
+nav ul li strong:hover {
+  color: black;
+  font-weight: 700; }
+
+#navbar img {
+  width: 30vh; }
+
+.button {
+  background: #f76806;
+  color: white;
+  cursor: pointer; }
+
+.button:hover {
+  background: #777475;
+  color: white;
+  cursor: pointer; }
+
+.bg-orange {
+  background-color: #f76806; }
+
+.bg-black {
+  background-color: black; }
+
+.bg-gris {
+  background-color: #777475; }
+
+.bg-orangetransparencia {
+  background-color: #f766067e; }
+
+.bombilla:hover {
+  transform: scale(105%);
+  cursor: pointer;
+  transition: transform 2s; }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  color: black; }
+
+.w-10 {
+  width: 50px; }
+
+.footer__copy {
+  width: 100%;
+  font-family: lato, sans serif;
+  font-size: .6rem;
+  background-color: #f76806;
+  font-weight: 700;
+  color: aliceblue;
+  text-align: center;
+  padding: 5px 0px; }
+
+#footer {
+  background-color: #4a4a4a;
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-between; }
+
+.whatsapp:hover {
+  transform: scale(105%);
+  cursor: pointer;
+  transition: transform 2s; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font: 62,5%; }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  color: #f76806; }
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #777475; }
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #f76806; }
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: #777475; }
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: white; }

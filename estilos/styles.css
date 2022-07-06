@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font: 62,5%; }
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  color: #f96706; }
+  @media (min-width: 321px) and (max-width: 767px) {
+    h1 {
+      font-size: 1.4rem; } }
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: #777475; }
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: #f96706; }
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: #777475; }
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #e9e9e9; }
+
+nav {
+  font-family: "Montserrat", sans-serif;
+  font-size: .9rem;
+  background-color: rgba(255, 255, 255, 0.8); }
+  nav img {
+    width: 30vh; }
+  nav ul li {
+    list-style: none; }
+    nav ul li a {
+      text-decoration: none;
+      color: #777475; }
+      nav ul li a strong {
+        text-decoration: none;
+        color: #f96706; }
+        nav ul li a strong:hover {
+          color: #171717;
+          font-weight: 700; }
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: #171717; }
+
+.button {
+  background: #f96706;
+  color: #e9e9e9;
+  cursor: pointer; }
+  .button:hover {
+    background: #777475;
+    color: #e9e9e9;
+    cursor: pointer; }
+
+.bg-orange {
+  background-color: #f96706; }
+
+.bg-black {
+  background-color: #171717; }
+
+.bg-gris {
+  background-color: #777475; }
+
+.bg-orangetransparencia {
+  background-color: #f9670680; }
+
+.w-10 {
+  width: 50px; }
+
+.footer__copy {
+  width: 100%;
+  font-family: lato, sans serif;
+  font-size: .6rem;
+  background-color: #f96706;
+  font-weight: 700;
+  color: #e9e9e9;
+  text-align: center;
+  padding: 5px 0px; }
+
+#footer {
+  background-color: #777475;
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+  justify-content: space-between; }
+  #footer .img__redes {
+    width: 50px; }
+  @media (min-width: 321px) and (max-width: 767px) {
+    #footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center; } }

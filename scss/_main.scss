@@ -1,0 +1,49 @@
+
+p{
+    font-family: $mainFont;
+    font-size: 0.9rem;
+    color: $blackColor;
+}
+
+.button{
+	background:$mainColor;
+    color: $whiteColor;
+    cursor: pointer;
+    &:hover{
+        background:$secondaryColor ;
+        color: $whiteColor;
+        cursor: pointer;
+    }
+
+}
+
+
+.bg-orange{
+    background-color:$mainColor;
+}
+
+.bg-black{
+    background-color: $blackColor;
+}
+
+.bg-gris{
+    background-color: $secondaryColor;
+}
+
+
+.bg-orangetransparencia{
+    background-color: $contactColor;
+}
+
+
+.w-10{
+    width: 50px;
+}
+
+
+
+
+
+
+
+

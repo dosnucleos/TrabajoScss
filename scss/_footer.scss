@@ -1,0 +1,38 @@
+
+
+.footer__copy {
+    width: 100%;
+    font-family: lato, sans serif;
+    font-size: .6rem;
+    background-color: $mainColor;
+    font-weight: 700;
+    color: $whiteColor;
+    text-align: center;
+    padding: 5px 0px;
+    
+}
+
+
+#footer {
+    background-color: $secondaryColor;
+    width: 100%;
+    margin: 0;
+    padding: 2rem ;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    .img__redes{
+        width: 50px;
+    }
+    @media (min-width: 321px) and (max-width: 767px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+}
+
+
