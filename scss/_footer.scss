@@ -4,7 +4,7 @@
     width: 100%;
     font-family: lato, sans serif;
     font-size: .6rem;
-    background-color: $mainColor;
+    background-color: map-get($map: $paleta, $key: 'uno' );
     font-weight: 700;
     color: $whiteColor;
     text-align: center;
@@ -14,15 +14,11 @@
 
 
 #footer {
-    background-color: $secondaryColor;
+    background-color: map-get($map: $paleta, $key:'dos' );
     width: 100%;
     margin: 0;
     padding: 2rem ;
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    align-items: center;
-    justify-content: space-between;
+    @include FlexFooter ();
     .img__redes{
         width: 50px;
     }

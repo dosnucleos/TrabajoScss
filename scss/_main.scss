@@ -19,11 +19,11 @@ p{
 
 
 .bg-orange{
-    background-color:$mainColor;
+    background-color:map-get($map: $paleta, $key:'uno' );
 }
 
 .bg-black{
-    background-color: $blackColor;
+    background-color: map-get($map: $paleta, $key:'tres' );
 }
 
 .bg-gris{

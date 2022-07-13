@@ -1,0 +1,20 @@
+$paleta:(
+    'uno':hsl(24, 95%, 50%),
+     'dos': #777475,
+     'tres': #171717,
+     'cuatro': #e9e9e9,
+);
+
+
+
+@mixin FlexFooter {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}  
+
+.extendButton{
+    @extend .button;
+    border-radius: 3em;
+}
